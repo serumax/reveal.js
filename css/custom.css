@@ -1,0 +1,62 @@
+/* 
+    Document   : custom
+    Created on : 21-oct-2013, 17:49:11
+    Author     : serumax
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+div.slides .present h2{ 
+    margin-bottom: 30px;
+
+}
+div.slides .present p{
+    margin-bottom: 30px;    
+}
+
+.reveal section img {
+    border: none;
+}
+.etapas{
+
+
+}
+.etapas li{
+    display: block;
+    float: left;
+    padding: 5px;
+    font-size: 0.85em;
+    
+}
+
+div.slides .present .metricas{
+    width: 100%;
+    border-top: 1px dashed #666; 
+    padding: 25px 0;
+}
+
+div.slides .present .top20{
+    margin-top: 20px;
+}
+
+div.slides .present .destacado{
+    padding: 10px 15px; 
+    background: #666;
+    border: 1px solid #999;
+    margin-left: 20px;
+    border-radius: 10px;
+    font-size: 0.75em;
+}
+.reveal h1.general{
+    position: absolute;
+    right: 50px;
+    top:20px;
+    z-index: 10;
+    font-size: 2em;
+}
+
+div.slides .present h2 a.contacto{
+    color: #fff;
+    text-decoration: none;
+    line-height: 140%;
+}

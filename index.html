@@ -1,383 +1,387 @@
 <!doctype html>
 <html lang="en">
 
-	<head>
-		<meta charset="utf-8">
+    <head>
+        <meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+        <title>reveal.js - The HTML Presentation Framework</title>
 
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+        <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+        <meta name="author" content="Hakim El Hattab">
 
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="css/reveal.min.css">
-		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+        <link rel="stylesheet" href="css/reveal.min.css">
+        <link rel="stylesheet" href="css/theme/night.css" id="night">
 
-		<!-- For syntax highlighting -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
-		<script>
-			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
-		</script>
+        <link rel="stylesheet" href="css/custom.css">
 
-		<!--[if lt IE 9]>
-		<script src="lib/js/html5shiv.js"></script>
-		<![endif]-->
-	</head>
+        <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+        <script>
+            document.write('<link rel="stylesheet" href="css/print/' + (window.location.search.match(/print-pdf/gi) ? 'pdf' : 'paper') + '.css" type="text/css" media="print">');
+        </script>
 
-	<body>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
-		<div class="reveal">
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
 
-			<!-- Any section element inside of this container is displayed as a slide -->
-			<div class="slides">
-				<section>
-					<h1>Reveal.js</h1>
-					<h3>HTML Presentations Made Easy</h3>
-					<p>
-						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
-					</p>
-				</section>
+    <body>
+        <div class="reveal">
+            <h1 class="general"></h1>
+            <div class="slides">
 
-				<section>
-					<h2>Heads Up</h2>
-					<p>
-						reveal.js is a framework for easily creating beautiful presentations using HTML. You'll need a browser with
-						support for CSS 3D transforms to see it in its full glory.
-					</p>
+                <!--                                                            portada-->
 
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
-				</section>
+                <section  data-state="start"  data-transition="concave"  data-background-transition="slide"  data-background-color="#FF0000" data-background-image="presentacion/logo.png" data-background-size="80px" data-background-repeat="norepeat" data-background-position="20px 0">
+                    <h1>Metodología DCU</h1>
+                    <h3>Diseño Centrado en el usuario</h3>
+                    <small>IDEAS DIGITALES APLICADAS</small>
+                </section>
 
-				<!-- Example of nested vertical slides -->
-				<section>
-					<section>
-						<h2>Vertical Slides</h2>
-						<p>
-							Slides can be nested inside of other slides,
-							try pressing <a href="#" class="navigate-down">down</a>.
-						</p>
-						<a href="#" class="image navigate-down">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section>
-						<h2>Basement Level 1</h2>
-						<p>Press down or up to navigate.</p>
-					</section>
-					<section>
-						<h2>Basement Level 2</h2>
-						<p>Cornify</p>
-						<a class="test" href="http://cornify.com">
-							<img width="280" height="326" src="https://s3.amazonaws.com/hakim-static/reveal-js/cornify.gif" alt="Unicorn">
-						</a>
-					</section>
-					<section>
-						<h2>Basement Level 3</h2>
-						<p>That's it, time to go back up.</p>
-						<a href="#/2" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="-webkit-transform: rotate(180deg);">
-						</a>
-					</section>
-				</section>
+                <!--                                                            Intro ¿que es?-->
 
-				<section>
-					<h2>Slides</h2>
-					<p>
-						Not a coder? No problem. There's a fully-featured visual editor for authoring these, try it out at <a href="http://slid.es" target="_blank">http://slid.es</a>.
-					</p>
-				</section>
+                <section data-state="intro" data-transition="linear" data-background-transition="slide" data-background="presentacion/logo.png" data-background-size="80px" data-background-repeat="norepeat" data-background-position="20px 0">
+                    <h2>¿Qué es?</h2>
+                    <p>
+                        Es un método para involucrar activamente a los usuarios dentro de los procesos de Conceptualización y Desarrollo de un Sitio.
+                    </p>
+                    <h2>¿Por qué es útil?</h2>                    
+                    <p>     
+                        Porque ayuda a determinar cuantitativa y cualitativamente las necesidades, características y limitaciones de un sistema y sus usuarios.
+                    </p>
+                </section>
 
-				<section>
-					<h2>Point of View</h2>
-					<p>
-						Press <strong>ESC</strong> to enter the slide overview.
-					</p>
-					<p>
-						Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
-					</p>
-				</section>
+                <!--                                                            Intro Etapas-->
 
-				<section>
-					<h2>Works in Mobile Safari</h2>
-					<p>
-						Try it out! You can swipe through the slides and pinch your way to the overview.
-					</p>
-				</section>
+                <section  data-state="etapas"  data-transition="linear" data-background-transition="slide" data-background="presentacion/logo.png" data-background-size="80px" data-background-repeat="norepeat" data-background-position="20px 0">
+                    <ul class="etapas">
+                        <li class="fragment visible destacado" data-fragment-index="0">Estrategia</li>
+                        <li class="fragment destacado" data-fragment-index="1">Estudio de Usuarios</li>
+                        <li class="fragment destacado" data-fragment-index="2">Arquitectura de Información</li>
+                        <li class="fragment destacado" data-fragment-index="3">Diseño Visual</li>
+                        <li class="fragment destacado" data-fragment-index="4">Producción & Desarrollo</li>
+                    </ul>
+                    <h3 class="metricas fragment top20" data-fragment-index="5">CICLO DE EVALUACIÓN CONSTANTE</h3>
+                    <div class="metricas fragment" data-fragment-index="6">Optimización & Conversión</div>                        
 
-				<section>
-					<h2>Marvelous Unordered List</h2>
-					<ul>
-						<li>No order here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-					</ul>
-				</section>
+                </section>
 
-				<section>
-					<h2>Fantastic Ordered List</h2>
-					<ol>
-						<li>One is smaller than...</li>
-						<li>Two is smaller than...</li>
-						<li>Three!</li>
-					</ol>
-				</section>
+                <!--                                                            Estrategia-->
 
-				<section data-markdown>
-					<script type="text/template">
-						## Markdown support
+                <section   data-state="estrategia"  data-background="presentacion/logo.png" data-background-size="80px" data-background-repeat="norepeat" data-background-position="20px 0">
 
-						For those of you who like that sort of thing. Instructions and a bit more info available [here](https://github.com/hakimel/reveal.js#markdown).
+                    <!--sub 1-->                    
 
-						```
-						<section data-markdown>
-						  ## Markdown support
+                    <section>
+                        <p>
+                            Es el proceso mediante el cual se espera lograr un estado en un plazo determinado
+                        </p>
+                        <ol>
+                            <li class="fragment visible" data-fragment-index="0">Establece objetivos concretos y medibles.</li>
+                            <li class="fragment" data-fragment-index="1">Define procedimientos a utilizar.</li>
+                            <li class="fragment" data-fragment-index="2">Se materializa en hitos y plazos.</li>
+                        </ol>
 
-						  For those of you who like that sort of thing.
-						  Instructions and a bit more info available [here](https://github.com/hakimel/reveal.js#markdown).
-						</section>
-						```
-					</script>
-				</section>
+                        <h3  class="fragment top20" data-fragment-index="3">Hablamos de...</h3>
 
-				<section id="transitions">
-					<h2>Transition Styles</h2>
-					<p>
-						You can select from different transitions, like: <br>
-						<a href="?transition=cube#/transitions">Cube</a> -
-						<a href="?transition=page#/transitions">Page</a> -
-						<a href="?transition=concave#/transitions">Concave</a> -
-						<a href="?transition=zoom#/transitions">Zoom</a> -
-						<a href="?transition=linear#/transitions">Linear</a> -
-						<a href="?transition=fade#/transitions">Fade</a> -
-						<a href="?transition=none#/transitions">None</a> -
-						<a href="?#/transitions">Default</a>
-					</p>
-				</section>
+                        <ul class="etapas top20">
+                            <li class="fragment destacado" data-fragment-index="4">Indicadores de rendimiento (KPI)</li> 
+                            <li class="fragment destacado" data-fragment-index="5"> Uso de herramientas o técnicas</li> 
+                            <li class="fragment destacado" data-fragment-index="6"> Planificación de carta gantt</li> 
+                        </ul>
 
-				<section id="themes">
-					<h2>Themes</h2>
-					<p>
-						Reveal.js comes with a few themes built in: <br>
-						<a href="?#/themes">Default</a> -
-						<a href="?theme=sky#/themes">Sky</a> -
-						<a href="?theme=beige#/themes">Beige</a> -
-						<a href="?theme=simple#/themes">Simple</a> -
-						<a href="?theme=serif#/themes">Serif</a> -
-						<a href="?theme=night#/themes">Night</a> <br>
-						<a href="?theme=moon.css#/themes">Moon</a> -
-						<a href="?theme=simple.css#/themes">Simple</a> -
-						<a href="?theme=solarized.css#/themes">Solarized</a>
-					</p>
-					<p>
-						<small>
-							* Theme demos are loaded after the presentation which leads to flicker. In production you should load your theme in the <code>&lt;head&gt;</code> using a <code>&lt;link&gt;</code>.
-						</small>
-					</p>
-				</section>
+                    </section>
 
-				<section>
-					<h2>Global State</h2>
-					<p>
-						Set <code>data-state="something"</code> on a slide and <code>"something"</code>
-						will be added as a class to the document element when the slide is open. This lets you
-						apply broader style changes, like switching the background.
-					</p>
-				</section>
+                    <!--sub 2-->
 
-				<section data-state="customevent">
-					<h2>Custom Events</h2>
-					<p>
-						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
-					</p>
-					<pre><code data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
-Reveal.addEventListener( 'customevent', function() {
-	console.log( '"customevent" has fired' );
-} );
-					</code></pre>
-				</section>
+                    <section>
+                        <h2>¿Estamos hablando de lo mismo?</h2>                        
+                        <img src="presentacion/clienteproveedor.png" alt="Cliente y Proveedor" />
+                        <p>Cliente - Proveedor</p>
 
-				<section>
-					<section data-background="#007777">
-						<h2>Slide Backgrounds</h2>
-						<p>
-							Set <code>data-background="#007777"</code> on a slide to change the full page background to the given color. All CSS color formats are supported.
-						</p>
-						<a href="#" class="image navigate-down">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png">
-						<h2>Image Backgrounds</h2>
-						<pre><code>&lt;section data-background="image.png"&gt;</code></pre>
-					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" data-background-repeat="repeat" data-background-size="100px">
-						<h2>Repeated Image Backgrounds</h2>
-						<pre><code style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
-					</section>
-				</section>
+                        <ol>
+                            <li class="fragment visible" data-fragment-index="0">Brief: con requerimientos claros, ¿cierto?</li>
+                            <li class="fragment" data-fragment-index="1">Gantt: Durante un plazo específico, ¿cierto?</li>
+                            <li class="fragment" data-fragment-index="2">Quick Review & Banchmark: sin sorpresas, ¿cierto?</li>
+                        </ol>
+                    </section>
 
-				<section data-transition="linear" data-background="#4d7e65" data-background-transition="slide">
-					<h2>Background Transitions</h2>
-					<p>
-						Pass reveal.js the <code>backgroundTransition: 'slide'</code> config argument to make backgrounds slide rather than fade.
-					</p>
-				</section>
+                    <!--sub 3-->
 
-				<section data-transition="linear" data-background="#8c4738" data-background-transition="slide">
-					<h2>Background Transition Override</h2>
-					<p>
-						You can override background transitions per slide by using <code>data-background-transition="slide"</code>.
-					</p>
-				</section>
+                    <section>
+                        <h2>En definitiva buscaremos...</h2>
+                        <ul  class="etapas top20">
+                            <li class="fragment visible destacado" data-fragment-index="0" >Detectar</li>
+                            <li class="fragment destacado" data-fragment-index="1">Minimizar</li>
+                            <li class="fragment destacado" data-fragment-index="2">Cuantificar</li>
+                        </ul>
+                    </section>
+                </section>
 
-				<section>
-					<h2>Clever Quotes</h2>
-					<p>
-						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;The nice thing about standards is that there are so many to choose from&rdquo;</q> and block:
-					</p>
-					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
-						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
-					</blockquote>
-				</section>
+                <!--                                                            Usuario-->                
 
-				<section>
-					<h2>Pretty Code</h2>
-					<pre><code data-trim contenteditable>
-function linkify( selector ) {
-  if( supports3DTransforms ) {
+                <section data-background="presentacion/pi.png"  data-background-repeat="norepeat" data-background-position="20px 0" data-background-transition="slide">
 
-    var nodes = document.querySelectorAll( selector );
+                    <!--sub 1-->                    
 
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
+                    <section data-background="presentacion/logo.png" data-background-size="80px" data-background-repeat="norepeat" data-background-position="20px 0">
+                        <h2>Estudio de Usuario</h2>
+                        <p>
+                            Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
+                        </p>
+                    </section>
 
-      if( !node.className ) {
-        node.className += ' roll';
-      }
-    }
-  }
-}
-					</code></pre>
-					<p>Courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
-				</section>
+                    <!--sub 2-->
 
-				<section>
-					<h2>Intergalactic Interconnections</h2>
-					<p>
-						You can link between slides internally,
-						<a href="#/2/3">like this</a>.
-					</p>
-				</section>
+                    <section data-background="presentacion/logo.png" data-background-size="80px" data-background-repeat="norepeat" data-background-position="20px 0">
+                        <h2>Estudio de Usuario</h2>
+                        <p>
+                            Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
+                        </p>
+                    </section>
 
-				<section>
-					<section>
-						<h2>Fragmented Views</h2>
-						<p>Hit the next arrow...</p>
-						<p class="fragment">... to step through ...</p>
-						<ol>
-							<li class="fragment"><code>any type</code></li>
-							<li class="fragment"><em>of view</em></li>
-							<li class="fragment"><strong>fragments</strong></li>
-						</ol>
+                    <!--sub 3-->                    
 
-						<aside class="notes">
-							This slide has fragments which are also stepped through in the notes window.
-						</aside>
-					</section>
-					<section>
-						<h2>Fragment Styles</h2>
-						<p>There's a few styles of fragments, like:</p>
-						<p class="fragment grow">grow</p>
-						<p class="fragment shrink">shrink</p>
-						<p class="fragment roll-in">roll-in</p>
-						<p class="fragment fade-out">fade-out</p>
-						<p class="fragment highlight-red">highlight-red</p>
-						<p class="fragment highlight-green">highlight-green</p>
-						<p class="fragment highlight-blue">highlight-blue</p>
-					</section>
-				</section>
+                    <section data-background="presentacion/logo.png" data-background-size="80px" data-background-repeat="norepeat" data-background-position="20px 0">
+                        <h2>Estudio de Usuario</h2>
+                        <p>
+                            Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
+                        </p>
+                    </section>
+                </section>
 
-				<section>
-					<h2>Spectacular image!</h2>
-					<a class="image" href="http://lab.hakim.se/meny/" target="_blank">
-						<img width="320" height="299" src="http://s3.amazonaws.com/hakim-static/portfolio/images/meny.png" alt="Meny">
-					</a>
-				</section>
+                <!--                                                            Arquitectura-->                
 
-				<section>
-					<h2>Export to PDF</h2>
-					<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, below is an example that's been uploaded to SlideShare.</p>
-					<iframe id="slideshare" src="http://www.slideshare.net/slideshow/embed_code/13872948" width="455" height="356" style="margin:0;overflow:hidden;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe>
-					<script>
-						document.getElementById('slideshare').attributeName = 'allowfullscreen';
-					</script>
-				</section>
+                <section data-state="ai"  data-background="presentacion/cardsorting.png" data-background-repeat="norepeat"  data-background-transition="slide" >
 
-				<section>
-					<h2>Take a Moment</h2>
-					<p>
-						Press b or period on your keyboard to enter the 'paused' mode. This mode is helpful when you want to take distracting slides off the screen
-						during a presentation.
-					</p>
-				</section>
+                    <!--sub 1-->     
 
-				<section>
-					<h2>Stellar Links</h2>
-					<ul>
-						<li><a href="http://slid.es">Try the online editor</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js">Source code on GitHub</a></li>
-						<li><a href="http://twitter.com/hakimel">Follow me on Twitter</a></li>
-					</ul>
-				</section>
+                    <section data-background="presentacion/logo.png" data-background-size="80px" data-background-repeat="norepeat" data-background-position="20px 0">
+                        <p>
+                            Disciplina que estudia y analiza la organización, disposición y estructuración de la información.
+                        </p>
+                        <ul class="etapas top20">
+                            <li class="fragment destacado" data-fragment-index="1">Estructura</li> 
+                            <li class="fragment destacado" data-fragment-index="2">Navegación</li> 
+                            <li class="fragment destacado" data-fragment-index="3">División visual</li> 
+                        </ul>
 
-				<section>
-					<h1>THE END</h1>
-					<h3>BY Hakim El Hattab / hakim.se</h3>
-				</section>
 
-			</div>
+                        <ol class="top20">
+                            <li class="fragment" data-fragment-index="4">Categoriza y establece estructuras mediante mapas de contenidos.</li>
+                            <li class="fragment" data-fragment-index="5">Define flujos de navegación e interacción.</li>
+                            <li class="fragment" data-fragment-index="6">Prototipo de baja intensidad que permite identificar divisiones visuales en pantalla.</li>
+                        </ol>                        
+                    </section>
 
-		</div>
+                    <!--sub 2-->     
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.min.js"></script>
+                    <section data-background="presentacion/logo.png" data-background-size="80px" data-background-repeat="norepeat" data-background-position="20px 0">
+                        <h3>Herramientas Principales</h3>
+                        <ol>
+                            <li class="fragment visible" data-fragment-index="0"><strong>Mapas de contenido</strong>: Diagramación relacional de la información bajo una estructura que facilite su encontrabilidad</li>
+                            <li class="fragment" data-fragment-index="1"><strong>Partituras de interacción</strong>: Diagramas de flujos alternativos que determinan acciones/reacciones de procesos</li>
+                            <li class="fragment" data-fragment-index="2"><strong>Wireframes</strong>: Traducción de diagrama de contenidos a divisiones de pantalla</li>
+                        </ol>                        
 
-		<script>
+                    </section>
+                </section>
 
-			// Full list of configuration options available here:
-			// https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				controls: true,
-				progress: true,
-				history: true,
-				center: true,
 
-				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
 
-				// Optional libraries used to extend on reveal.js
-				dependencies: [
-					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
-				]
-			});
+                <!--                                                            Diseño-->                
 
-		</script>
+                <section data-state="diseno" data-background="presentacion/diseno.png" data-background-repeat="norepeat" data-background-position="20px 0"  data-background-transition="slide" >
 
-	</body>
+                    <!--sub 1-->     
+
+                    <section data-background="presentacion/logo.png" data-background-size="80px" data-background-repeat="norepeat" data-background-position="20px 0">
+                        <h2>Diseño</h2>
+                        <p>
+                            Conjunto de elementos de pantalla que permiten al usuario realizar acciones 
+                        </p>
+                        <ul class="etapas top20">
+                            <li class="fragment destacado" data-fragment-index="1">Comunica</li> 
+                            <li class="fragment destacado" data-fragment-index="2">Facilita la lectura</li> 
+                            <li class="fragment destacado" data-fragment-index="3">Jerarquiza</li> 
+                        </ul>  
+                        <ol class="top20">
+                            <li class="fragment" data-fragment-index="4">Expresa la experiencia de uso que se quiere construir para el usuario</li>
+                            <li class="fragment" data-fragment-index="5">Potencia la legibilidad y encontrabiliad del mensaje.</li>
+                            <li class="fragment" data-fragment-index="6">Enfatiza la estructura definida en WireFrame mediante color y jerarquías tipográficas..</li>
+                        </ol>                            
+                    </section>
+
+                    <!--sub 2-->     
+
+                    <section data-background="presentacion/logo.png" data-background-size="80px" data-background-repeat="norepeat" data-background-position="20px 0">
+                        <h2>Diseño</h2>
+                        <h3>Herramientas Principales</h3>
+                        <ol class="top20">
+                            <li class="fragment visible" data-fragment-index="0">Familias iconográficas: Conversión de datos en formas claras directas e inequívocas</li>
+                            <li class="fragment" data-fragment-index="1">Paletas de colores: Traduce o interpreta los colores corporativos a pantalla</li>
+                            <li class="fragment" data-fragment-index="2">Elementos de Navegación: Define elementos que invitan a la acción</li>
+                            <li class="fragment" data-fragment-index="3">Tipografías: Ordena y jerarquiza la lectura</li>
+                        </ol>  
+                    </section>
+
+                    <!--sub 3-->     
+
+
+                </section>
+
+                <!--                                                            Desarrollo-->                
+
+                <section data-state="desarrollo"  data-background="presentacion/logo.png" data-background-size="80px" data-background-repeat="norepeat" data-background-position="20px 0">
+
+                    <!--sub 1-->     
+
+                    <section>
+                        <p>
+                            Diseño Front como traducción de imagen a lenguajes HTML y CSS. Desarrollo como programación e integración.
+                        </p>
+                    </section>
+
+                    <!--sub 2-->     
+
+                    <section>
+                        <p>
+                            Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
+                        </p>
+                    </section>
+
+                    <!--sub 3-->     
+
+                    <section>
+                        <p>
+                            Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
+                        </p>
+                    </section>
+                </section>
+
+                <!--                                                            Conversión-->                
+
+                <section data-background="presentacion/logo.png" data-background-size="80px" data-background-repeat="norepeat" data-background-position="20px 0">
+
+                    <!--sub 1-->     
+
+                    <section>
+                        <h2>Conversión</h2>
+                        <p>
+                            Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
+                        </p>
+                    </section>
+
+                    <!--sub 2-->     
+
+                    <section>
+                        <h2>Conversión</h2>
+                        <p>
+                            Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
+                        </p>
+                    </section>
+
+                    <!--sub 3-->     
+
+                    <section>
+                        <h2>Conversión</h2>
+                        <p>
+                            Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
+                        </p>
+                    </section>
+                </section>                
+
+                <!--                                                            Gracias-->   
+                <section data-transition="linear" data-background-transition="slide" data-state="gracias" data-background="presentacion/logo.png" data-background-size="80px" data-background-repeat="norepeat" data-background-position="20px 0" data-background-color="#FF0000">
+                    <h1>Gracias</h1>
+                    <h2><a class="contacto" href="/contacto/" title="Contáctanos">¿Quieres éxito para tu negocio digital? <br /> Contáctanos y toma el camino de IDA.</a></h2>
+                    <small>IDEAS DIGITALES APLICADAS</small>
+                </section>
+
+            </div>
+
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.min.js"></script>
+
+        <script>
+
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
+                width: 1200,
+                height: 800,
+                margin: 0.1,
+                minScale: 0.2,
+                maxScale: 1.0,
+                zoom: 1,
+                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    {src: 'lib/js/classList.js', condition: function() {
+                            return !document.body.classList;
+                        }},
+                    {src: 'plugin/markdown/marked.js', condition: function() {
+                            return !!document.querySelector('[data-markdown]');
+                        }},
+                    {src: 'plugin/markdown/markdown.js', condition: function() {
+                            return !!document.querySelector('[data-markdown]');
+                        }},
+                    {src: 'plugin/highlight/highlight.js', async: true, callback: function() {
+                            hljs.initHighlightingOnLoad();
+                        }},
+                    {src: 'plugin/zoom-js/zoom.js', async: true, condition: function() {
+                            return !!document.body.classList;
+                        }},
+                    {src: 'plugin/notes/notes.js', async: true, condition: function() {
+                            return !!document.body.classList;
+                        }}
+                ]
+            });
+
+            $(function() {
+                Reveal.addEventListener('start', function() {
+                    $(".general").html("")
+                }, false);
+                Reveal.addEventListener('gracias', function() {
+                    $(".general").html("")
+                }, false);
+                Reveal.addEventListener('etapas', function() {
+                    $(".general").html("Etapas")
+                }, false);
+                Reveal.addEventListener('intro', function() {
+                    $(".general").html("Metodología DCU")
+                }, false);
+                Reveal.addEventListener('estrategia', function() {
+                    $(".general").html("Estrategia")
+                }, false);
+                Reveal.addEventListener('ai', function() {
+                    $(".general").html("Arquitectura de Información")
+                }, false);
+                Reveal.addEventListener('diseno', function() {
+                    $(".general").html("Diseño Visual")
+                }, false);
+                Reveal.addEventListener('desarrollo', function() {
+                    $(".general").html("Desarrollo & Producción")
+                }, false);
+            })
+        </script>
+
+    </body>
 </html>
